@@ -5,7 +5,8 @@ import Picture from "./components/Picture.tsx";
 import List from "./components/List.tsx";
 import Link from "./components/Link.tsx";
 import Blockquote from "./components/Blockquote.tsx";
-    import Text from "./components/Text.tsx";
+import Text from "./components/Text.tsx";
+import Profile from "./Profile.tsx";
 function Blog(){
     return (
         <>
@@ -16,6 +17,7 @@ function Blog(){
             <Link />
             <Blockquote />
             <Text />
+            <Profile />
         </>
     );
 }
